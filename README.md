@@ -43,8 +43,8 @@ Se desarrolló como **MVP (Producto Viable Mínimo)** para el **Trabajo Práctic
 ## Instalación y ejecución
 
 1. Clonar el repositorio
-git clone https://github.com/TU-USUARIO/REPO-NOMBRE.git
-cd REPO-NOMBRE
+git clone https://github.com/micaastancato-beep/buscador-empleos-telegram-bot.git
+cd buscador-empleos-telegram-bot
 
 2. Instalar dependencias
 Copiar código
@@ -58,9 +58,9 @@ Copiar código
 Estas variables:
 
 Copiar código
-TELEGRAM_BOT_TOKEN = 'TU_TOKEN'
-SCRAPINGDOG_API_KEY = "TU_API_KEY"
-os.environ["API_KEY"] = "TU_API_KEY_DE_GEMINI"
+TELEGRAM_BOT_TOKEN = '8418827665:AAFzoxRm_gco4kax08rWNeWFufrFNlY4dc0'
+SCRAPINGDOG_API_KEY = "68ffe7a87a7ad738e895e3ae"
+os.environ["API_KEY"] = "AIzaSyAZ4pvgZ8AcKY_QOthvQGcype9vm8URTXg"
 ⚠️ Para producción, se recomienda usar variables de entorno.
 
 ▶️ Ejecutar el bot
@@ -113,3 +113,4 @@ Incluye:
 ✔ Listado crudo + análisis IA
 ✔ Manejo de casos borde
 ✔ Documentación completa
+
