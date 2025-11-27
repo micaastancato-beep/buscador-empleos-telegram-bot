@@ -13,7 +13,7 @@ import datetime
 
 # Configuración de la API de Google Gemini (requerida para mostrar_analisis_ia)
 # La clave se obtiene del entorno.
-os.environ["API_KEY"] = "AIzaSyAFwR9tZt8yGtP47mFEqdCKeTczqWuoVzw"
+os.environ["API_KEY"] = "API_KEY"
 genai.configure(api_key=os.environ["API_KEY"])
 # Inicialización del modelo de IA que se usará para el análisis de resultados.
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -442,4 +442,5 @@ def run_bot():
 
 if __name__ == "__main__":
     # Asegura que la función se ejecute solo si el script se corre directamente.
+
     run_bot()
