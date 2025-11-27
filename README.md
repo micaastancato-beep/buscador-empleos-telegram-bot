@@ -29,7 +29,7 @@ Se desarrolló como **MVP (Producto Viable Mínimo)** para el **Trabajo Práctic
 ## Estructura del Repositorio
 
 /job_finder_bot/
-│ └── jobfinder1.py
+│ └── findjob.py
 │
 ├── requirements.txt
 ├── README.md
@@ -54,19 +54,19 @@ pip install -r requirements.txt
 Editar dentro de:
 
 Copiar código
-/job_finder_bot/jobfinder1.py
+/job_finder_bot/findjob.py
 Estas variables:
 
 Copiar código
 TELEGRAM_BOT_TOKEN = '8418827665:AAFzoxRm_gco4kax08rWNeWFufrFNlY4dc0'
-SCRAPINGDOG_API_KEY = "68ffe7a87a7ad738e895e3ae"
-os.environ["API_KEY"] = "AIzaSyAZ4pvgZ8AcKY_QOthvQGcype9vm8URTXg"
+SCRAPINGDOG_API_KEY = "69035dd1a2ba049c8a36a261"
+os.environ["API_KEY"] = "AIzaSyAFwR9tZt8yGtP47mFEqdCKeTczqWuoVzw"
 ⚠️ Para producción, se recomienda usar variables de entorno.
 
 ▶️ Ejecutar el bot
 
 Copiar código
-python job_finder_bot/jobfinder1.py
+python job_finder_bot/findjob.py
 La consola deberá mostrar:
 
 Copiar código
@@ -113,4 +113,5 @@ Incluye:
 ✔ Listado crudo + análisis IA
 ✔ Manejo de casos borde
 ✔ Documentación completa
+
 
