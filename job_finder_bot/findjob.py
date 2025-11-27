@@ -1,5 +1,4 @@
 import requests
-import sys
 import telebot
 from telebot import types
 import google.generativeai as genai
@@ -444,3 +443,4 @@ if __name__ == "__main__":
     # Asegura que la función se ejecute solo si el script se corre directamente.
 
     run_bot()
+
