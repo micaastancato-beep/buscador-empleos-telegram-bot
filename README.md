@@ -60,7 +60,7 @@ Estas variables:
 Copiar código
 TELEGRAM_BOT_TOKEN = '8418827665:AAFzoxRm_gco4kax08rWNeWFufrFNlY4dc0'
 SCRAPINGDOG_API_KEY = "69035dd1a2ba049c8a36a261"
-os.environ["API_KEY"] = "AIzaSyAFwR9tZt8yGtP47mFEqdCKeTczqWuoVzw"
+os.environ["API_KEY"] = "AP_KEY_GEMINI"
 ⚠️ Para producción, se recomienda usar variables de entorno.
 
 ▶️ Ejecutar el bot
@@ -113,5 +113,6 @@ Incluye:
 ✔ Listado crudo + análisis IA
 ✔ Manejo de casos borde
 ✔ Documentación completa
+
 
 
